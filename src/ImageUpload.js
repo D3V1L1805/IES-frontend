@@ -27,7 +27,6 @@ const ImageUpload = () => {
     };
 
     return (
-        
         <div className="upload-container">
             <div className='Header'>
                 Welcome to Image Interpreter AI
@@ -36,20 +35,16 @@ const ImageUpload = () => {
                 Upload Image and get image description
             </div>
             <div className='SH'>
-            <div className='SH1'>
-                Safe
+                <div className='SH1'>Safe</div>
+                <strong>&#183;</strong>
+                <div className='SH1'>Secure</div>
+                <strong>&#183;</strong>
+                <div className='SH1'>Reliable</div>
             </div>
-            <strong>&#183;</strong>
-            <div className='SH1'>
-                Secure
+            <div style={{ marginTop: '40vh' }}>
+                <input type="file" onChange={handleImageChange} />
+                <button onClick={handleUpload}>Upload</button>
             </div>
-            <strong>&#183;</strong>
-            <div className='SH1'>
-                Reliable
-            </div>
-            </div>
-            <input type="file" onChange={handleImageChange} />
-            <button onClick={handleUpload}>Upload</button>
             {selectedImage && (
                 <div className="image-preview">
                     <img src={URL.createObjectURL(selectedImage)} alt="Preview" />
