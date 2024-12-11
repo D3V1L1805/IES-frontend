@@ -8,7 +8,6 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-image: url('bg_image.jpg'); /* Replace with your background image URL */
     background-size:120vw;
     background-position: right;
