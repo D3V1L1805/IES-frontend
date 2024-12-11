@@ -10,7 +10,7 @@
     background-position: right;
     scroll-behavior: smooth;
     color: white;
-    position: relative;
+    position: fixed;
     font-size: 1.5vw;
     background-repeat:repeat-y;
 }
@@ -26,7 +26,7 @@
 }
 
 .description-box {
-    position: static;
+    position: fixed;
     bottom: auto;
     left: 50%;
     /* transform: translate(-50%, 0); */
