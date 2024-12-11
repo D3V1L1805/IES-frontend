@@ -8,13 +8,13 @@
     background-image: url('bg_image.jpg'); /* Replace with your background image URL */
     background-size:120vw;
     background-position: right;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     color: white;
     position: relative;
     font-size: 1.5vw;
     background-repeat:repeat-y;
-    overflow-y: auto;
-    scrollbar-width: none;
+    overflow-y:hidden;
+    /* scrollbar-width: none; */
 }
 
 /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
