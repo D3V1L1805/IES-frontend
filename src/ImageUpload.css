@@ -30,6 +30,7 @@ html {
 .image-preview {
     margin-top: 70px;
     text-align: center;
+    margin-bottom: 10vh;
 }
 
 .image-preview img {
@@ -52,11 +53,12 @@ html {
     display: none;
     max-height: 150px;
     overflow: auto;
-    padding-bottom: 10vh;
+    margin-bottom: 10vh;
 }
 
 .description-box.visible {
     display: block;
+    margin-bottom: 10vh;
 }
 
 /* Header styling */
