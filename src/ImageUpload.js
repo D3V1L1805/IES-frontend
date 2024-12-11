@@ -28,9 +28,9 @@ const ImageUpload = () => {
 
     return (
         <div className="upload-container">
-            {/* <div className='Header'> */}
+            <div className='Header'>
                 Welcome to Image Interpreter AI
-            {/* </div> */}
+            </div>
             <div className='SubHeader'>
                 Upload Image and get image description
             </div>

@@ -39,7 +39,7 @@ html {
 
 .description-box {
     margin-top: 30px;
-    position: static;
+    position: relative;
     bottom: auto;
     left: 50%;
     /* transform: translate(-50%, 0); */
@@ -74,7 +74,7 @@ html {
 
 /* SubHeader styling */
 .SubHeader {
-    position:fixed;
+    position:relative;
     color: black;
     top : 15vh;
     text-align: center; /* Center align text */
@@ -86,7 +86,7 @@ html {
 /* SH styling */
 .SH {
     background-color: transparent;
-    position : fixed;
+    position : relative;
     top: 30vh;
     font-size: 1.5vw;
 }
