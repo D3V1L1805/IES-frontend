@@ -13,7 +13,8 @@
     position: relative;
     font-size: 1.5vw;
     background-repeat:repeat-y;
-    overflow-y:scroll;
+    overflow-y:visible;
+    
     /* scrollbar-width: none; */
 }
 
