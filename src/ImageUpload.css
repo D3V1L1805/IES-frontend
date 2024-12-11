@@ -1,0 +1,89 @@
+/* src/ImageUpload.css */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('bg_image.jpg'); /* Replace with your background image URL */
+    background-size:120vw;
+    background-position: right;
+    scroll-behavior: smooth;
+    color: white;
+    position: relative;
+    font-size: 1.5vw;
+    background-repeat:repeat-y;
+}
+
+.image-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.description-box {
+    position: static;
+    bottom: auto;
+    left: 50%;
+    /* transform: translate(-50%, 0); */
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    /* padding: 10px; */
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-self: center;
+    display: none;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.description-box.visible {
+    display: block;
+}
+
+/* Header styling */
+.Header {
+    max-height: 10vh;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    border-radius: 0;
+    z-index: 1000;
+    font-size: 3vw;
+}
+
+/* SubHeader styling */
+.SubHeader {
+    position:fixed;
+    color: black;
+    top : 15vh;
+    text-align: center; /* Center align text */
+    font-size: 2vw; /* Small font size */
+    background-color: rgb(32, 178, 170, 0.5);
+    margin-top: 10px; /* Space between Header and SubHeader */
+}
+
+/* SH styling */
+.SH {
+    background-color: transparent;
+    position : fixed;
+    top: 30vh;
+    font-size: 1.5vw;
+}
+
+/* SH1 styling */
+.SH1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block; /* Align SH1 blocks in a single line */
+    margin: 0 10px; /* Space between SH1 blocks */
+    padding: 5px 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Optional: rounded corners for SH1 blocks */
+}
